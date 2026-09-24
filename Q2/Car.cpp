@@ -43,11 +43,9 @@ public:
 int main()
 {
     Car c;
-
     c.setModel("BMW");
     c.setYear(2024);
     c.setSpeed(180);
-
     cout << "Model: " << c.getModel() << endl;
     cout << "Year: " << c.getYear() << endl;
     cout << "Speed: " << c.getSpeed() << " km/h" << endl;
